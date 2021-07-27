@@ -1,0 +1,29 @@
+{
+  "name": "protractor_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "protractor conf/conf.js",
+    "web-update": "webdriver-manager update",
+    "web-start": "webdriver-manager start",
+    "parallel": "protractor conf/conf.js --instances=2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.8.0",
+    "protractor": "^7.0.0",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.5",
+    "yargs": "^17.0.1",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "protractor-beautiful-reporter": "^1.3.6"
+  }
+}
